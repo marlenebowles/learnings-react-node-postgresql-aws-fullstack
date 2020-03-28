@@ -1,20 +1,20 @@
 {
-  "name": "learnings-react-node-postgresql-aws-fullstack",
-  "version": "1.0.0",
-  "description": "This repo is a scratchpad for the files and lessons learned from [React Fullstack with node/express, PostgresQl and AWS](https://www.udemy.com/course/react-fullstack-with-nodeexpress-psql-and-aws) on Udemy.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marlenebowles/learnings-react-node-postgresql-aws-fullstack.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/marlenebowles/learnings-react-node-postgresql-aws-fullstack/issues"
-  },
-  "homepage": "https://github.com/marlenebowles/learnings-react-node-postgresql-aws-fullstack#readme"
+	"name": "learnings-react-node-postgresql-aws-fullstack",
+	"version": "1.0.0",
+	"description": "This repo is a scratchpad for the files and lessons learned from [React Fullstack with node/express, PostgresQl and AWS](https://www.udemy.com/course/react-fullstack-with-nodeexpress-psql-and-aws) on Udemy.",
+	"main": "build/app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/marlenebowles/learnings-react-node-postgresql-aws-fullstack.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/marlenebowles/learnings-react-node-postgresql-aws-fullstack/issues"
+	},
+	"homepage": "https://github.com/marlenebowles/learnings-react-node-postgresql-aws-fullstack#readme"
 }
