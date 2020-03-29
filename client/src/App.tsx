@@ -1,22 +1,19 @@
 import React from 'react';
-import './App.css';
+import { usePosts } from './hooks/usePosts';
+
+interface Post {
+	userId: number;
+	id: number;
+	title: string;
+	body: string;
+}
 
 function App() {
+	const posts = usePosts();
 	return (
 		<div className="App">
-			<header className="App-header">
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
+			{posts &&
+				posts.map((item: Post) => <p key={item.title}>{item.title}</p>)}
 		</div>
 	);
 }

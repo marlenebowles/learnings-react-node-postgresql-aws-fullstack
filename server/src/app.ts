@@ -12,8 +12,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.get('/', (request: Request, response: Response) => {
+app.get('/api', (request: Request, response: Response) => {
 	response.status(200).send('Hey kitty girl, its your world');
+	// response.status(400).send('Hey kitty girl, its your error');
 });
 
 app.listen(port, () => {
